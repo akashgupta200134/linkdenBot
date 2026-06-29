@@ -1,6 +1,4 @@
 
-
-@'
 const { chromium } = require("playwright");
 const ExcelJS = require("exceljs");
 const { randomDelay } = require("./utils");
@@ -101,4 +99,3 @@ const run = async () => {
 };
 
 run().catch(console.error);
-'@ | Set-Content -Path "C:\Drive Data\OneDrive\Desktop\linkdenBot\finder.js" -Encoding UTF8
